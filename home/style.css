@@ -1,0 +1,153 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #FEFCFB;
+}
+
+.secoes{
+    border-bottom: 2px solid black;
+    padding: 1%;
+    background-color: #1282A2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#sobremim-conteudo,#objetivo-conteudo{
+    background-color: #FEFCFB;
+    padding: 1%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#sobremim-titulo, #objetivo-titulo{
+    padding: 1%;
+    margin: 1%;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bolder;
+}*/
+
+#sobremim-texto, #objetivo-texto{
+    padding: 1%;
+    height: 5%;
+    width: 90%;
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    text-align: justify
+}
+
+#experiencia{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #FEFCFB;
+    padding: 1%;
+    border-radius: 5px;
+    width: 80%;
+    height: 30%;
+    text-align: center;
+}
+
+.card-img{
+    border-bottom: 1px solid black;
+}
+
+#imagemsabesp{
+    max-width: 100%;
+}
+
+.card-text{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+
+.text-title{
+    padding: 1%;
+    font-weight: 900;
+}
+
+.text-content{
+    font-weight: 500;
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao-sabesp{
+    background-color: #1282A2;
+    border-radius: 5px;
+    width: 30%;
+    height: 10%;
+    padding: 1%;
+    margin: 1%;
+    border: 2px solid #0A1128;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#botao-sabesp:hover{
+    scale: 1.07;
+}
+
+#botao-sabesp a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#trabalhos{
+    border: none;
+}
+
+#voltar-topo{
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    transition: 0.5s;
+}
+
+#voltar-topo:hover{
+    scale: 1.3;
+}
