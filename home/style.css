@@ -522,6 +522,7 @@
 
 ::-webkit-scrollbar{
     width: 15px;
+    border-radius: 10px;
     background-color: rgb(24, 24, 24);
 }
 
