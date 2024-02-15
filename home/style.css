@@ -519,3 +519,8 @@
         margin: 1%;
     }
 }
+
+.pop-up-texto::-webkit-scrollbar-thumb{
+    border: 3px solid #1282A2;
+    border-radius: 10px;
+}
