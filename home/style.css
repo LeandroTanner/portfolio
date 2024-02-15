@@ -519,15 +519,3 @@
         margin: 1%;
     }
 }
-
-::-webkit-scrollbar{
-    width: 15px;
-    border-radius: 10px;
-    background-color: rgb(24, 24, 24);
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: rgb(24, 24, 24);
-    border: 3px solid #1282A2;
-    border-radius: 10px;
-}
