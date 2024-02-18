@@ -5,19 +5,17 @@
 }
 
 .secoes{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
     padding: 1%;
     font-family: 'Montserrat', sans-serif;
-    background-image: url("../padroes/img/imagemdefundo2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: rgb(226, 226, 226);
 }
 
 #sobremim-conteudo,#objetivo-conteudo{
     padding: 1%;
     border-radius: 5px;
-    color: white;
+    color: black;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +37,7 @@
     width: 60%;
     text-align: center;
     font-size: large;
-    font-weight: 500;
+    font-weight: 700;
     text-align: justify
 }
 
@@ -57,7 +55,7 @@
     background-color: #FEFCFB;
     padding: 1%;
     border-radius: 5px;
-    width: 50%;
+    width: 30%;
     height: 30%;
     text-align: center;
     margin: 2%;
@@ -66,7 +64,7 @@
 
 .card:hover{
     scale: 1.015;
-    box-shadow: 5px 5px 40px rgb(255, 255, 255);
+    box-shadow: 4px 4px 18px rgb(0, 0, 0);
 }
 
 .card-img{
@@ -147,7 +145,7 @@
 
 .card-formacao:hover{
     scale: 1.02;
-    box-shadow: 5px 5px 40px rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgb(32, 32, 32);
 }
 
 .card-img-formacao{
@@ -242,14 +240,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 2%;
+    margin: 1%;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .card-compet:hover{
     scale: 1.02;
-    box-shadow: 3px 3px 15px white;
+    box-shadow: 3px 3px 12px rgb(48, 48, 48);
 }
 
 .card-compet-img{
@@ -287,7 +285,7 @@
 
 .titulos:hover{
     scale: 1.02;
-    box-shadow: 3px 3px 10px rgb(168, 167, 167);
+    box-shadow: 3px 3px 10px rgb(109, 108, 108);
 }
 
 #trabalhos{
@@ -317,7 +315,7 @@
 
 .trabalho-card:hover{
     scale: 1.02;
-    box-shadow: 3px 3px 15px rgb(161, 161, 161);
+    box-shadow: 3px 3px 12px rgb(32, 32, 32);
 }
 
 .trabalho-title{
@@ -364,7 +362,7 @@
 
 .trabalho-botao button:hover{
     scale: 1.02;
-    box-shadow: 3px 3px 8px yellow;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
 }
 
 .trabalho-botao button a{
@@ -499,7 +497,7 @@
 
 @media screen and (max-width:850px){
     .card{
-        width: 90%;
+        width: 70%;
     }
 
     #sobremim-texto, #objetivo-texto{
@@ -518,6 +516,17 @@
         width: 80%;
         margin: 1%;
     }
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: rgb(24, 24, 24);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(24, 24, 24);
+    border: 3px solid #1282A2;
+    border-radius: 10px;
 }
 
 .pop-up-texto::-webkit-scrollbar-thumb{
