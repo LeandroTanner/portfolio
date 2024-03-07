@@ -211,6 +211,7 @@
     border: 2px solid #0A1128;
     transition: 0.5s;
     cursor: pointer;
+    overflow-y: auto;
 }
 
 #botao-formacao:hover{
