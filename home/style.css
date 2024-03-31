@@ -399,8 +399,9 @@
     position: fixed;
     right: 1%;
     bottom: 13%;
+    border-radius: 50%;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 1.7rem;
     aspect-ratio: 4/3;
     object-fit: contain;
